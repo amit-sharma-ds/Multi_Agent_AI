@@ -4,6 +4,18 @@ Provider-agnostic LLM routing with local Ollama inference for development and pr
 
 The app takes a YouTube URL, analyzes the video, extracts the main claims, and optionally verifies those claims using web search.
 
+## Live Demo
+
+[Open the deployed Streamlit app](https://multiagentai-asjuk9r2tv3nydeffkfdks.streamlit.app/)
+
+The cloud deployment uses Groq. Add the following values in Streamlit Cloud under **Manage app -> Settings -> Secrets** before analyzing a video:
+
+```toml
+LLM_PROVIDER = "groq"
+GROQ_API_KEY = "your_groq_api_key"
+GROQ_MODEL = "openai/gpt-oss-20b"
+```
+
 ## Tech Stack
 
 - **Python** - Application and agent logic
