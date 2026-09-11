@@ -9,7 +9,7 @@ from youtube_agent import build_youtube_agent
 from fact_check_agent import build_fact_check_agent
 from memory import db
 
-load_dotenv(override=True)
+load_dotenv()
 
 def build_supervisor_agent():
 

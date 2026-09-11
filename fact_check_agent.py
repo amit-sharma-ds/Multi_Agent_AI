@@ -6,7 +6,7 @@ from agno.tools.duckduckgo import DuckDuckGoTools
 
 from model_config import build_model
 
-load_dotenv(override=True)
+load_dotenv()
 
 
 def build_fact_check_agent():

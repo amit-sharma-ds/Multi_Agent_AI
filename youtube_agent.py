@@ -5,7 +5,7 @@ from agno.tools.youtube import YouTubeTools
 
 from model_config import build_model
 
-load_dotenv(override=True)
+load_dotenv()
 
 def build_youtube_agent():
     return Agent(
