@@ -1,0 +1,8 @@
+streamlit
+agno
+python-dotenv
+duckduckgo-search
+youtube-transcript-api
+groq
+openai
+sqlalchemy
