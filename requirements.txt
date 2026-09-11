@@ -1,5 +1,6 @@
 streamlit
 agno
+ollama
 python-dotenv
 duckduckgo-search
 youtube-transcript-api
