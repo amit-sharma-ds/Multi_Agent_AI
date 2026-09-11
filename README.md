@@ -1,6 +1,21 @@
-# Multi-Agent AI
+# Multi-Agent AI - YouTube Video Analysis & Fact Checking
 
-An agentic YouTube analysis application built with Streamlit and Agno. The app takes a YouTube URL, analyzes the video, extracts the main claims, and optionally verifies those claims using web search.
+Provider-agnostic LLM routing with local Ollama inference for development and privacy, plus Groq cloud inference for production deployment.
+
+The app takes a YouTube URL, analyzes the video, extracts the main claims, and optionally verifies those claims using web search.
+
+## Tech Stack
+
+- **Python** - Application and agent logic
+- **Streamlit** - Interactive web interface
+- **Agno** - Agent and multi-agent team orchestration
+- **Ollama** - Local LLM inference for development and privacy
+- **Groq** - Cloud LLM inference for production workloads
+- **OpenAI** - Optional cloud LLM provider
+- **YouTube Tools** - Video metadata and content analysis
+- **DuckDuckGo Tools** - External web search for fact checking
+- **SQLAlchemy / SQLite** - Persistent session and conversation memory through Agno's `SqliteDb`
+- **python-dotenv** - Environment-based configuration
 
 ## What It Does
 
