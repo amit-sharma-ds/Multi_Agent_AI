@@ -3,6 +3,7 @@ agno
 ollama
 python-dotenv
 duckduckgo-search
+ddgs
 youtube-transcript-api
 groq
 openai
